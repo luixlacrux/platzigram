@@ -1,0 +1,7 @@
+{
+  "name": "platzigram",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Luis Lacruz <luixlacrux18@gmail.com>",
+  "license": "MIT"
+}
