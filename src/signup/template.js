@@ -5,7 +5,7 @@ module.exports = yo`<div class="container">
     <div class="col s10 push-s1">
       <div class="row">
         <div class="col m5 hide-on-small-only">
-          <img class="iphone" src="iphone.png" alt="platzigram">
+          <img class="iphone" src="/iphone.png" alt="platzigram">
         </div>
         <div class="col s12 m7">
           <div class="row">
