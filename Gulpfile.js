@@ -27,6 +27,10 @@ function compile (watch) {
     bundle
       .transform(babel)
       .bundle()
+      .on('error', (err) => {
+        console.log(err)
+        this.emit(err)
+      })
       .pipe(source('index.js'))
       .pipe(rename('app.js'))
       .pipe(gulp.dest('public'))
