@@ -27,7 +27,7 @@ function compile (watch) {
     bundle
       .transform(babel)
       .bundle()
-      .on('error', (err) => {
+      .on('error', function (err) {
         console.log(err)
         this.emit(err)
       })
